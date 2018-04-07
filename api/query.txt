@@ -1,0 +1,20 @@
+
+{
+  transactions(businessId:"QnVzaW5lc3NOb2RlOjE0Mjc2Y2FhLTA4NmEtNGVmNi04NzMxLTNmYWUzMjE3ZjVlZQ==" ){
+   edges {
+     node {
+       id
+       payables {
+         edges {
+           node {
+             id
+             dateOccurred
+             referenceId
+            amount
+           }
+         }
+       }
+     }
+   }
+  }
+}
