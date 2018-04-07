@@ -18,5 +18,5 @@ python ReconciliationEngineAPI.py
 python test.py
 ```
 ### Query Details
-the access to the DB goes through the GraphQL
+the access to the DB goes through the GraphQL,
 the BusinessId is in query.txt 
