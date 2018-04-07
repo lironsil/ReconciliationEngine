@@ -6,6 +6,7 @@ The service exposes an API, with payment data as a json input, and the engine re
 ```
 Python 2.7
 Flask
+graphql
 ```
 ### Example of how to run the application
 ```
@@ -16,3 +17,6 @@ python ReconciliationEngineAPI.py
 ```
 python test.py
 ```
+### Query Details
+the access to the DB goes through the GraphQL
+the BusinessId is in query.txt 
